@@ -1,0 +1,28 @@
+name: Latest blog post workflow
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # daily at 02:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    name: Update README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update README using blog-post-workflow
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # Use your Medium RSS feed here
+          feed_list: "https://medium.com/feed/@cadet_grooves.4v"
+          max_post_count: 10
+          readme_path: ./README.md
+          commit_message: "chore: update README with latest blog posts"
+          committer_username: "blog-post-bot"
+          committer_email: "blog-post-bot@example.com"

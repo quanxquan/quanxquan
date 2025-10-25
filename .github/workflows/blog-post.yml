@@ -1,0 +1,23 @@
+name: Blog Post Workflow
+
+on:
+  issues:
+    types: [labeled, opened]
+  workflow_dispatch:
+
+jobs:
+  create-post:
+    name: Create blog post from issue
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run blog-post-workflow
+        uses: gautamkrishnar/blog-post-workflow@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          # 下面的 inputs 是常见配置：posts 目录与用于触发的 issue label
+          posts_dir: "_posts"
+          issue_label: "blog"
