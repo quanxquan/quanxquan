@@ -35,7 +35,9 @@
 
 - 我在 Medium 写作： [cadet_grooves（Medium）](https://medium.com/@cadet_grooves.4v)
 
-<!-- BLOG-POST-LIST:START --><!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->
+- [什么是 VERTEX？](https://medium.com/@cadet_grooves.4v/%E4%BB%80%E4%B9%88%E6%98%AF-vertex-33fc058d2bc4?source=rss-9504e4d550e4------2)
+<!-- BLOG-POST-LIST:END -->
 
 仓库已启用 `gautamkrishnar/blog-post-workflow`：该 workflow 会每天抓取指定 RSS feed 并把最新文章列表插入上面的注释区块（你也可以手动触发）。
 
