@@ -36,6 +36,7 @@
 - 我在 Medium 写作： [cadet_grooves（Medium）](https://medium.com/@cadet_grooves.4v)
 
 <!-- BLOG-POST-LIST:START -->
+- [关于ALU、脉动加法器、状态标志、编译器和汇编器](https://medium.com/@cadet_grooves.4v/%E5%85%B3%E4%BA%8Ealu-%E8%84%89%E5%8A%A8%E5%8A%A0%E6%B3%95%E5%99%A8-%E7%8A%B6%E6%80%81%E6%A0%87%E5%BF%97-%E7%BC%96%E8%AF%91%E5%99%A8%E5%92%8C%E6%B1%87%E7%BC%96%E5%99%A8-9eb2f2c1450a?source=rss-9504e4d550e4------2)
 - [什么是 VERTEX？](https://medium.com/@cadet_grooves.4v/%E4%BB%80%E4%B9%88%E6%98%AF-vertex-33fc058d2bc4?source=rss-9504e4d550e4------2)
 <!-- BLOG-POST-LIST:END -->
 
