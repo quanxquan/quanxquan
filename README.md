@@ -23,8 +23,6 @@
 
 ## 项目 & 示例 🧩
 
-（可以列出你想突出的仓库或项目）
-
 - 项目名称 — 简短描述与链接
 
 示例：
@@ -40,7 +38,7 @@
 - [什么是 VERTEX？](https://medium.com/@cadet_grooves.4v/%E4%BB%80%E4%B9%88%E6%98%AF-vertex-33fc058d2bc4?source=rss-9504e4d550e4------2)
 <!-- BLOG-POST-LIST:END -->
 
-仓库已启用 `gautamkrishnar/blog-post-workflow`：该 workflow 会每天抓取指定 RSS feed 并把最新文章列表插入上面的注释区块（你也可以手动触发）。
+仓库已启用 `gautamkrishnar/blog-post-workflow`：该 workflow 会每天抓取指定 RSS feed 并把最新文章列表插入上面的注释区块。
 
 ## 联系方式 📫
 
@@ -53,7 +51,7 @@
 
 ## 许可 📝
 
-如果仓库有 LICENSE 文件，这里会显示许可信息；如果没有请在根目录添加 `LICENSE` 来声明许可。
+在根目录添加 `LICENSE` 来声明许可。
 
 ---
 
