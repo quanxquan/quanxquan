@@ -34,6 +34,7 @@
 - 我在 Medium 写作： [cadet_grooves（Medium）](https://medium.com/@cadet_grooves.4v)
 
 <!-- BLOG-POST-LIST:START -->
+- [本地编辑（Local Editing） 才是 GitHub Wiki 的终极玩法](https://medium.com/@cadet_grooves.4v/%E6%9C%AC%E5%9C%B0%E7%BC%96%E8%BE%91-local-editing-%E6%89%8D%E6%98%AF-github-wiki-%E7%9A%84%E7%BB%88%E6%9E%81%E7%8E%A9%E6%B3%95-e2c7e023d974?source=rss-9504e4d550e4------2)
 - [AnVIL平台簡報：雲端基因體學研究的核心基礎設施](https://medium.com/@cadet_grooves.4v/anvil%E5%B9%B3%E5%8F%B0%E7%B0%A1%E5%A0%B1-%E9%9B%B2%E7%AB%AF%E5%9F%BA%E5%9B%A0%E9%AB%94%E5%AD%B8%E7%A0%94%E7%A9%B6%E7%9A%84%E6%A0%B8%E5%BF%83%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD-83d663358bdf?source=rss-9504e4d550e4------2)
 - [关于ALU、脉动加法器、状态标志、编译器和汇编器](https://medium.com/@cadet_grooves.4v/%E5%85%B3%E4%BA%8Ealu-%E8%84%89%E5%8A%A8%E5%8A%A0%E6%B3%95%E5%99%A8-%E7%8A%B6%E6%80%81%E6%A0%87%E5%BF%97-%E7%BC%96%E8%AF%91%E5%99%A8%E5%92%8C%E6%B1%87%E7%BC%96%E5%99%A8-9eb2f2c1450a?source=rss-9504e4d550e4------2)
 - [什么是 VERTEX？](https://medium.com/@cadet_grooves.4v/%E4%BB%80%E4%B9%88%E6%98%AF-vertex-33fc058d2bc4?source=rss-9504e4d550e4------2)
