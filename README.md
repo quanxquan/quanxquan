@@ -1,61 +1,186 @@
-# 👋 你好，我是 quanxquan
+<div align="center">
 
-<!-- Badges -->
-[![Follow](https://img.shields.io/github/followers/quanxquan?label=Follow&style=social)](https://github.com/quanxquan)
-[![GitHub stars](https://img.shields.io/github/stars/quanxquan/quanxquan?style=flat-square)](https://github.com/quanxquan/quanxquan/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/quanxquan/quanxquan?style=flat-square)](https://github.com/quanxquan/quanxquan/network/members)
-[![Issues](https://img.shields.io/github/issues/quanxquan/quanxquan?style=flat-square)](https://github.com/quanxquan/quanxquan/issues)
-[![Top language](https://img.shields.io/github/languages/top/quanxquan/quanxquan?style=flat)](https://github.com/quanxquan/quanxquan)
-[![Last commit](https://img.shields.io/github/last-commit/quanxquan/quanxquan?style=flat)](https://github.com/quanxquan/quanxquan/commits/main)
+<!-- 顶部横幅 -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=Hi%20there,%20I'm%20Quan!&fontSize=55&fontAlignY=38&desc=Biostatistics%20PhD%20%E2%80%A2%20Bioinformatics%20%E2%80%A2%20Data%20Science&descAlignY=60&descAlign=50&animation=twinkling&fontColor=ffffff" width="100%"/>
 
----
+<!-- 个人照片 -->
+<img src="./genspark-tryon-image.jpg" alt="Quan" width="200" style="border-radius: 50%; border: 4px solid #6C63FF; box-shadow: 0 8px 24px rgba(108, 99, 255, 0.3);"/>
 
-## 关于我 🧬
+<br/>
 
-- 我是 @quanxquan。兴趣：生物信息学、基因组数据分析，以及为生物研究开发计算工具。🚀
-- 目前在学习更高级的数据可视化技巧（R / Python），并希望参与序列分析或功能基因组学相关的开源协作。🎯
+<!-- 打字效果 -->
+<a href="https://github.com/quanxquan">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=6C63FF&center=true&vCenter=true&width=700&lines=%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%8D%9A%E5%A3%AB%E7%94%9F+%40+Boston+University;From+HUST+%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6+%E2%86%92+BU;%E8%8B%B1%E8%AF%AD+%2B+%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6+%E5%8F%8C%E5%AD%A6%E4%BD%8D;Turning+data+into+biological+insights+%F0%9F%A7%AC" alt="Typing SVG" />
+</a>
 
-## 个人亮点 ✨
+<!-- 访客统计 + 粉丝 -->
+<p>
+  <img src="https://komarev.com/ghpvc/?username=quanxquan&label=Profile%20views&color=6c63ff&style=flat-square" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/quanxquan?label=Followers&style=flat-square&color=blueviolet" alt="followers" />
+  <img src="https://img.shields.io/badge/Focus-Biostatistics%20%7C%20Bioinformatics-ff69b4?style=flat-square" alt="focus" />
+</p>
 
-- 🔬 专注：基因组学数据处理、序列比对与注释
-- 📊 技能：R、Python、数据可视化、统计分析
-- ⚡ 有趣事实：人类基因组若完全展开，长度可超过 6 英尺，但能装进微小的细胞核中。
-
-## 项目 & 示例 🧩
-
-- 项目名称 — 简短描述与链接
-
-示例：
-
-- [genome-auto](https://github.com/quanxquan/genome-auto) — 基因组数据处理工具集
-
-## 博客 ✍️
-
-- 我在 Medium 写作： [cadet_grooves（Medium）](https://medium.com/@cadet_grooves.4v)
-
-<!-- BLOG-POST-LIST:START -->
-- [PT/BT 自动追剧流水线](https://medium.com/@cadet_grooves.4v/pt-bt-%E8%87%AA%E5%8A%A8%E8%BF%BD%E5%89%A7%E6%B5%81%E6%B0%B4%E7%BA%BF-986699e2ba5b?source=rss-9504e4d550e4------2)
-- [本地编辑（Local Editing） 才是 GitHub Wiki 的终极玩法](https://medium.com/@cadet_grooves.4v/%E6%9C%AC%E5%9C%B0%E7%BC%96%E8%BE%91-local-editing-%E6%89%8D%E6%98%AF-github-wiki-%E7%9A%84%E7%BB%88%E6%9E%81%E7%8E%A9%E6%B3%95-e2c7e023d974?source=rss-9504e4d550e4------2)
-- [AnVIL平台簡報：雲端基因體學研究的核心基礎設施](https://medium.com/@cadet_grooves.4v/anvil%E5%B9%B3%E5%8F%B0%E7%B0%A1%E5%A0%B1-%E9%9B%B2%E7%AB%AF%E5%9F%BA%E5%9B%A0%E9%AB%94%E5%AD%B8%E7%A0%94%E7%A9%B6%E7%9A%84%E6%A0%B8%E5%BF%83%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD-83d663358bdf?source=rss-9504e4d550e4------2)
-- [关于ALU、脉动加法器、状态标志、编译器和汇编器](https://medium.com/@cadet_grooves.4v/%E5%85%B3%E4%BA%8Ealu-%E8%84%89%E5%8A%A8%E5%8A%A0%E6%B3%95%E5%99%A8-%E7%8A%B6%E6%80%81%E6%A0%87%E5%BF%97-%E7%BC%96%E8%AF%91%E5%99%A8%E5%92%8C%E6%B1%87%E7%BC%96%E5%99%A8-9eb2f2c1450a?source=rss-9504e4d550e4------2)
-- [什么是 VERTEX？](https://medium.com/@cadet_grooves.4v/%E4%BB%80%E4%B9%88%E6%98%AF-vertex-33fc058d2bc4?source=rss-9504e4d550e4------2)
-<!-- BLOG-POST-LIST:END -->
-
-仓库已启用 `gautamkrishnar/blog-post-workflow`：该 workflow 会每天抓取指定 RSS feed 并把最新文章列表插入上面的注释区块。
-
-## 联系方式 📫
-
-- 邮箱: haojs.uk@outlook.com
-- 欢迎通过 Issues / PR / 邮件联系我，一起讨论合作。🤝
-
-## 想加入/贡献？ ❤️
-
-- 欢迎 fork 并提交 PR。请在 PR 中描述改动目的与测试步骤。
-
-## 许可 📝
-
-在根目录添加 `LICENSE` 来声明许可。
+</div>
 
 ---
 
-感谢你的访问！如果你喜欢，请点个 Star ⭐ 或开始一个 Issue 来聊聊想法。
+## 🌿 关于我 / About Me
+
+```python
+class Quan:
+    def __init__(self):
+        self.name        = "Quan"
+        self.username    = "@quanxquan"
+        self.education   = [
+            "🎓 华中科技大学 HUST — 英语 × 生物信息学 (双学位)",
+            "🎓 Boston University — PhD in Biostatistics"
+        ]
+        self.location    = "Boston, MA → Wuhan, China 🌎"
+        self.languages   = ["中文 🇨🇳", "English 🇬🇧", "Python 🐍", "R 📊"]
+        self.current     = "Building statistical models for genomic data"
+
+    def say_hi(self):
+        print("谢谢访问！Thanks for dropping by — let's collaborate. ✨")
+
+Quan().say_hi()
+```
+
+---
+
+## 🧬 研究兴趣 / Research Interests
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/fluency/64/dna-helix.png" width="50"/><br/>
+      <b>Genomics</b><br/>
+      <sub>Single-cell • Bulk RNA-seq</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/fluency/64/combo-chart.png" width="50"/><br/>
+      <b>Biostatistics</b><br/>
+      <sub>Bayesian • Causal Inference</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/fluency/64/artificial-intelligence.png" width="50"/><br/>
+      <b>Machine Learning</b><br/>
+      <sub>Deep Learning for Bio</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/fluency/64/literature.png" width="50"/><br/>
+      <b>Scientific Writing</b><br/>
+      <sub>双语写作 • Publication</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠 技术栈 / Tech Stack
+
+<div align="center">
+
+**Languages & Stats**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Julia](https://img.shields.io/badge/Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white)
+![Stan](https://img.shields.io/badge/Stan-B2001D?style=for-the-badge&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
+
+**Bioinformatics & ML**  
+![Bioconductor](https://img.shields.io/badge/Bioconductor-1E3A8A?style=for-the-badge&logoColor=white)
+![Seurat](https://img.shields.io/badge/Seurat-4169E1?style=for-the-badge&logoColor=white)
+![Scanpy](https://img.shields.io/badge/Scanpy-2E8B57?style=for-the-badge&logoColor=white)
+![Nextflow](https://img.shields.io/badge/Nextflow-0DB7ED?style=for-the-badge&logo=nextflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+
+**Workflow**  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+</div>
+
+---
+
+## 📈 GitHub 数据 / Stats
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=quanxquan&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight&icon_color=6C63FF&title_color=6C63FF" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=quanxquan&layout=compact&hide_border=true&theme=tokyonight&title_color=6C63FF&langs_count=8" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=quanxquan&theme=tokyonight&hide_border=true&stroke=6C63FF&ring=6C63FF&fire=FF6B9D&currStreakLabel=6C63FF" width="70%"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=quanxquan&theme=tokyo-night&hide_border=true&area=true&color=6C63FF&line=FF6B9D&point=ffffff" width="95%"/>
+</div>
+
+---
+
+## 🌱 当前在做 / Currently Working On
+
+- 🔬 在 BU 生物统计系开展博士研究：高维基因组数据的统计方法
+- 📚 阅读论文：single-cell multi-omics integration
+- 🌍 用双语（中/英）记录科研笔记与学习心得
+- 🤝 寻找合作者 — 欢迎 Issue / PR / Email 交流！
+
+---
+
+## 🗺 成长路径 / My Journey
+
+```mermaid
+timeline
+    title Quan 的求学之路
+    section 华中科技大学 HUST
+      本科  : 英语专业
+            : 生物信息学（第二学位）
+            : 跨学科视野启蒙
+    section 过渡
+      申请季  : 确定方向 → 生物统计
+            : 准备 GRE / Research
+    section Boston University
+      PhD   : Biostatistics
+            : 科研 + 教学 + 合作
+            : Ongoing ...
+```
+
+---
+
+## 📬 订阅我的更新 / Subscribe
+
+<div align="center">
+  <a href="https://quanxquan.github.io/quanxquan/subscribe.html">
+    <img src="https://img.shields.io/badge/📬%20Subscribe%20to%20my%20updates-6C63FF?style=for-the-badge&logoColor=white" alt="Subscribe"/>
+  </a>
+  <p><sub>科研笔记 · 生物统计 · 生信工具 — 不定期更新，随时可退订</sub></p>
+</div>
+
+---
+
+## 💬 找到我 / Reach Me
+
+<div align="center">
+
+<a href="mailto:quan@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://github.com/quanxquan"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
+
+</div>
+
+---
+
+<div align="center">
+
+> *"All models are wrong, but some are useful."* — George E. P. Box
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer" width="100%"/>
+
+</div>

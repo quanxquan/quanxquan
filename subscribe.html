@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Subscribe · @quanxquan</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: linear-gradient(135deg, #0d1117 0%, #1a1a2e 50%, #16213e 100%);
+      color: #e6edf3;
+      padding: 24px;
+    }
+
+    /* floating particles background */
+    .bg { position: fixed; inset: 0; overflow: hidden; z-index: 0; pointer-events: none; }
+    .particle {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.15;
+      animation: float 8s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50%       { transform: translateY(-30px) scale(1.1); }
+    }
+
+    .card {
+      position: relative;
+      z-index: 1;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(108, 99, 255, 0.3);
+      border-radius: 24px;
+      padding: 52px 48px 44px;
+      max-width: 480px;
+      width: 100%;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 0 60px rgba(108, 99, 255, 0.15), 0 24px 48px rgba(0,0,0,0.4);
+    }
+
+    .avatar-wrap {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .avatar-wrap img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #6C63FF;
+      box-shadow: 0 0 24px rgba(108,99,255,0.5);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #6C63FF, #FF6B9D);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #8b949e;
+      font-size: 0.9rem;
+      margin-bottom: 36px;
+      line-height: 1.6;
+    }
+
+    .form-group { margin-bottom: 18px; }
+
+    label {
+      display: block;
+      font-size: 0.8rem;
+      color: #8b949e;
+      margin-bottom: 7px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      padding: 13px 18px;
+      border-radius: 12px;
+      border: 1px solid rgba(108, 99, 255, 0.25);
+      background: rgba(255,255,255,0.05);
+      color: #e6edf3;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    input[type="text"]:focus,
+    input[type="email"]:focus {
+      border-color: #6C63FF;
+      box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.2);
+    }
+    input::placeholder { color: #484f58; }
+
+    button[type="submit"] {
+      width: 100%;
+      padding: 14px;
+      margin-top: 8px;
+      border: none;
+      border-radius: 12px;
+      background: linear-gradient(90deg, #6C63FF, #FF6B9D);
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.1s;
+      letter-spacing: 0.03em;
+    }
+    button[type="submit"]:hover  { opacity: 0.9; transform: translateY(-1px); }
+    button[type="submit"]:active { transform: translateY(0); }
+    button[type="submit"]:disabled { opacity: 0.55; cursor: not-allowed; transform: none; }
+
+    /* feedback states */
+    .feedback {
+      margin-top: 20px;
+      padding: 14px 18px;
+      border-radius: 12px;
+      font-size: 0.9rem;
+      text-align: center;
+      display: none;
+    }
+    .feedback.success {
+      background: rgba(63, 185, 80, 0.15);
+      border: 1px solid rgba(63, 185, 80, 0.4);
+      color: #3fb950;
+      display: block;
+    }
+    .feedback.error {
+      background: rgba(248, 81, 73, 0.12);
+      border: 1px solid rgba(248, 81, 73, 0.35);
+      color: #f85149;
+      display: block;
+    }
+
+    .footer-note {
+      margin-top: 24px;
+      text-align: center;
+      font-size: 0.78rem;
+      color: #484f58;
+    }
+    .footer-note a {
+      color: #6C63FF;
+      text-decoration: none;
+    }
+    .footer-note a:hover { text-decoration: underline; }
+
+    /* spinner */
+    .spinner {
+      display: inline-block;
+      width: 16px; height: 16px;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+
+<!-- background particles -->
+<div class="bg">
+  <div class="particle" style="width:300px;height:300px;background:#6C63FF;top:-80px;left:-60px;animation-delay:0s;"></div>
+  <div class="particle" style="width:200px;height:200px;background:#FF6B9D;bottom:-50px;right:-40px;animation-delay:3s;"></div>
+  <div class="particle" style="width:150px;height:150px;background:#6C63FF;top:40%;right:5%;animation-delay:1.5s;"></div>
+</div>
+
+<div class="card">
+  <div class="avatar-wrap">
+    <img src="./genspark-tryon-image.jpg" alt="Quan" onerror="this.style.display='none'"/>
+  </div>
+
+  <h1>Stay in the Loop 🔔</h1>
+  <p class="subtitle">
+    订阅我的更新 — 科研笔记、生物统计、生信工具<br/>
+    <em>Research notes · Biostatistics · Bioinformatics</em>
+  </p>
+
+  <form id="subForm">
+    <div class="form-group">
+      <label>Name / 姓名</label>
+      <input type="text" id="name" placeholder="Your name" autocomplete="name" />
+    </div>
+    <div class="form-group">
+      <label>Email * / 邮箱</label>
+      <input type="email" id="email" placeholder="you@example.com" required autocomplete="email" />
+    </div>
+    <button type="submit" id="submitBtn">Subscribe ✨</button>
+  </form>
+
+  <div class="feedback" id="feedback"></div>
+
+  <p class="footer-note">
+    No spam, unsubscribe anytime.<br/>
+    Made by <a href="https://github.com/quanxquan" target="_blank">@quanxquan</a>
+  </p>
+</div>
+
+<script>
+  const API = 'https://radiant-tor-50198-a0c6ee2f0359.herokuapp.com/api/subscribe';
+
+  document.getElementById('subForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const name     = document.getElementById('name').value.trim();
+    const email    = document.getElementById('email').value.trim();
+    const btn      = document.getElementById('submitBtn');
+    const feedback = document.getElementById('feedback');
+
+    if (!email) return;
+
+    // loading state
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span>Subscribing...';
+    feedback.className = 'feedback';
+    feedback.style.display = 'none';
+
+    try {
+      const res = await fetch(API, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email,
+          name:   name || undefined,
+          source: 'github',
+          extra:  { campaign: 'github-profile' }
+        })
+      });
+
+      if (res.ok) {
+        feedback.className = 'feedback success';
+        feedback.textContent = '🎉 成功订阅！感谢关注，期待与你交流。';
+        document.getElementById('subForm').reset();
+      } else {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.message || `Error ${res.status}`);
+      }
+    } catch (err) {
+      feedback.className = 'feedback error';
+      feedback.textContent = `❌ ${err.message || '订阅失败，请稍后再试。'}`;
+    } finally {
+      btn.disabled = false;
+      btn.innerHTML = 'Subscribe ✨';
+    }
+  });
+</script>
+</body>
+</html>
